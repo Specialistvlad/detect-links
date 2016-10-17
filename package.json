@@ -1,0 +1,29 @@
+{
+  "name": "detect-links",
+  "version": "0.0.1",
+  "description": "Javascript plugin for replacing links with html <a> tag with checking top level domain",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Specialistvlad/detect-links.git"
+  },
+  "keywords": [
+    "linkify",
+    "hyperlinks",
+    "detect-links",
+    "text"
+  ],
+  "author": "Vladyslav Kazantsev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Specialistvlad/detect-links/issues"
+  },
+  "homepage": "https://github.com/Specialistvlad/detect-links#readme",
+  "dependencies": {
+    "merge": "^1.2.0",
+    "tld-list": "^1.0.1"
+  }
+}
